@@ -1,0 +1,86 @@
+[
+    {
+        "id": 0,
+        "uid": "jo-bloggs",
+        "name": "Bloggs, Jo",
+        "title" : "Job Title",
+        "department" : "Department 1",
+        "departmentBool": {
+            "dp1": true, 
+            "dp2": false,
+            "dp3" : false
+        }
+    },
+    {
+        "id": 1, 
+        "uid": "jesus-christ",
+        "name": "Christ, Jesus",
+        "title" : "Job Title",
+        "department" : "Department 1",
+        "departmentBool": {
+            "dp1": true, 
+            "dp2": false,
+            "dp3" : false
+        }
+    },
+    {
+        "id": 2, 
+        "uid": "rob-debank",
+        "name": "DeBank, Rob", 
+        "title" : "Job Title",
+        "department" : "Department 1",
+        "departmentBool": {
+            "dp1": true, 
+            "dp2": false,
+            "dp3" : false
+        }
+    },
+    {
+        "id": 3, 
+        "uid": "mike-hunt",
+        "name": "Hunt, Mike", 
+        "title" : "Job Title",
+        "department" : "Department 2",
+        "departmentBool": {
+            "dp1": false, 
+            "dp2": true,
+            "dp3" : false
+        }
+    },
+    {
+        "id": 3, 
+        "uid": "hugh-jass",
+        "name": "Jass, Hugh", 
+        "title" : "Job Title",
+        "department" : "Department 3",
+        "departmentBool": {
+            "dp1": false, 
+            "dp2": false,
+            "dp3" : true
+        }
+    },
+    {
+        "id": 3, 
+        "uid": "ben-dover",
+        "name": "Dover, Ben", 
+        "title" : "Job Title",
+        "department" : "Department 3",
+        "departmentBool": {
+            "dp1": false, 
+            "dp2": false,
+            "dp3" : true
+        }
+    },
+    {
+        "id": 3, 
+        "uid": "dick-hertz",
+        "name": "Hertz, Dick", 
+        "title" : "Job Title",
+        "department" : "Department 3",
+        "departmentBool": {
+            "dp1": false, 
+            "dp2": false,
+            "dp3" : true
+        }
+    }
+]

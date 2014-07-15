@@ -1,0 +1,49 @@
+<div class="row" data-ng-cloak="">
+    <div class="medium-12 columns ng-scope">
+        <div id="searchBox">
+            <input class="topcoat-search-input" type="search" placeholder="Search" data-ng-model="query" am-reset-field>
+            <i class="fa fa-times-circle resetBtn" data-ng-show="query.length" data-ng-animate="{show: 'fade'}" data-ng-click="query = ''"></i>
+        </div> 
+        <div class="fa fa-bars filterBtn" data-ng-click="isCollapsed = !isCollapsed"></div>
+    </div>
+</div>        
+        
+<div class="row" data-ng-cloak="">
+    <div class="medium-12 columns">        
+        <div id="filters">
+            <div collapse="!isCollapsed">
+                <label class="topcoat-checkbox">
+                  <input type="checkbox" data-ng-model='types.dp1'>
+                  <div class="topcoat-checkbox__checkmark"></div>
+                  &nbsp; DP1
+                </label>&nbsp;&nbsp;&nbsp;
+                <label class="topcoat-checkbox">
+                  <input type="checkbox" data-ng-model='types.dp2'>
+                  <div class="topcoat-checkbox__checkmark"></div>
+                  &nbsp; DP2
+                </label>&nbsp;&nbsp;&nbsp;
+                <label class="topcoat-checkbox">
+                  <input type="checkbox" data-ng-model='types.dp3'>
+                  <div class="topcoat-checkbox__checkmark"></div>
+                  &nbsp; DP3
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+<p></p>
+<div class="row" data-ng-cloak="">
+    <div class="medium-12 columns topcoat-list"><!--Body content-->
+        <ul class="topcoat-list__container">
+            <a href="#/employees/{{employee.uid}}" data-ng-repeat="employee in employee | filter:{name:query} | departmentFilter:types | orderBy:orderProp">
+                <li class="topcoat-list__item" >
+                    <strong>{{employee.name}}</strong><br>
+                    {{employee.title}}, {{employee.department}}
+                </li>
+            </a>  
+            <li class="topcoat-list__item" data-ng-show="(employee | filter:{name:query} | departmentFilter:types).length == 0">
+                No results found...
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+{
+    "name": "Rob DeBank", 
+    "title" : "Job Title",
+    "department" : "Department 1",
+    "departmentBool": {
+        "dp1": true, 
+        "dp2": false,
+        "dp3": false
+    },
+    "email": "debankr@email.com",
+    "landline": "+44 (0) 000 000 0000",
+    "mobile": "+44 (0) 000 000 0000",
+    "fax": "+44 (0) 000 000 0000",
+    "address": "Address, Address, Address, Post Code"
+}

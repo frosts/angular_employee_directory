@@ -1,0 +1,15 @@
+{
+    "name": "Mike Hunt",
+    "title" : "Job Title",
+    "department" : "Department 2",
+    "departmentBool": {
+        "dp1": false, 
+        "dp2": true,
+        "dp3": false
+    },
+    "email": "huntm@email.com",
+    "landline": "+44 (0) 000 000 0000",
+    "mobile": "+44 (0) 000 000 0000",
+    "fax": "+44 (0) 000 000 0000",
+    "address": "Address, Address, Address, Post Code"
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Hugh Jass", 
+    "title" : "Job Title",
+    "department" : "Department 3",
+    "departmentBool": {
+        "dp1": false, 
+        "dp2": false,
+        "dp3" : true
+    },
+    "email": "jassh@email.com",
+    "landline": "+44 (0) 000 000 0000",
+    "mobile": "+44 (0) 000 000 0000",
+    "fax": "+44 (0) 000 000 0000",
+    "address": "Address, Address, Address, Post Code"
+}
